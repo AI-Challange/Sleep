@@ -1,5 +1,6 @@
 # Sleep 2021 AI Challenge
 
+포스터 확정시 수정
 <img width=1000 src="main_page.png"/> 
 
 ## Description
