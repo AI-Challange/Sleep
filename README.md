@@ -23,7 +23,10 @@
 - Image Sample : <수정>
 
 - Label Sample : <수정>
+trainset-for_user.csv
 <img src="Sample/Sample_train_label.PNG"/> 
+
+testset-for_user.csv
 <img src="Sample/Sample_test_label.PNG"/> 
 
 ## Task
