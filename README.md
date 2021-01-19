@@ -23,7 +23,8 @@
 - Image Sample : <수정>
 
 - Label Sample : <수정>
-
+<img src="Sample_train_label.PNG"/> 
+<img src="Sample_test_label.PNG"/> 
 
 ## Task
 
