@@ -57,7 +57,13 @@ testset-for_user.csv, Columns : ['검사결과 코드', '이미지 번호'], Cla
 - Task : 수면 단계 분류(Multi-Label Classification)
 - Evalutation Metric : F-1 Macro
 ```
-
+F-1 Macor 상세 설명
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
+$$Precision_k = TP_k over TP_k FP_k $$
+$$ $$
+$$ $$
+$$ $$
+$$ $$
 
 ## 결과 제출 방법
 ```
