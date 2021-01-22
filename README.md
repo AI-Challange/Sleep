@@ -16,12 +16,12 @@
 
 ## Data
 ```
-- Data : 수면다원검사 결과 이미지 데이터 : 각 환자의 수면다원검사 결과를 이미지로 변환한 데이터 
+- Data : 수면다원검사 결과 이미지 데이터 : 각 검사결과의 수면다원검사 결과를 이미지로 변환한 데이터 
 - 이미지에는 아래 그림의 순서대로 신호가 포함되어 있음 : x축 가속도, y축 가속도 .............. 등 <수정>
 - 30초 단위 데이터가 1장의 이미지로 변환 됨
-- 환자는 평균 731.4장의 이미지를 보유하고 있음 (약 6시간)
-- 데이터의 시간 순서는 이미지명으로 정렬되어 있음 : 예시 > 환자코드_0001.png 환자코드_0002.png, ...
-- 검사 초기 일부는 수면이 시작되지 않아 레이블이 없음 : 예시 > 환자-1은 0004.png 부터 label이 존재
+- 검사결과는 평균 731.4장의 이미지를 보유하고 있음 (약 6시간)
+- 데이터의 시간 순서는 이미지명으로 정렬되어 있음 : 예시 > 검사결과 코드_0001.png 검사결과 코드_0002.png, ...
+- 검사 초기 일부는 수면이 시작되지 않아 레이블이 없음 : 예시 > 검사결과-1은 0004.png 부터 label이 존재
 - Train/Validation Dataset : 800건(명), Label 공개  // Test Dataset : 200건(명), Label 비공개
 - 
 ```
@@ -41,11 +41,11 @@ Metadata for signal
  
  - Label Sample : 
  
-trainset-for_user.csv, Columns : ['환자 코드', '이미지 번호', '레이블']
+trainset-for_user.csv, Columns : ['검사결과 코드', '이미지 번호', '레이블']
 
 <img width=500  src="Image/Sample_train_label.PNG"/> 
 
-testset-for_user.csv, Columns : ['환자 코드', '이미지 번호'], Class : 5개 클래스, ['Wake', 'N1', 'N2', 'N3', 'REM']
+testset-for_user.csv, Columns : ['검사결과 코드', '이미지 번호'], Class : 5개 클래스, ['Wake', 'N1', 'N2', 'N3', 'REM']
 
 
 <img width=500 src="Image/Sample_test_label.PNG"/> 
@@ -94,4 +94,17 @@ Columns : ['레이블']
 [Results] 결과
 등...
 ```
-## 이 공지사항을 숙지하지 않아 발생하는 모든 문제는 참가자에게 있음을 알립니다. ##
+
+## 참고
+```
+홈페이지 : https://maic.or.kr/
+```
+
+## Q&A
+```
+Homepage. http://maic.or.kr
+E-mail : sleep.aichallenge@gmail.com
+Phone : 070-7006-9191
+```
+
+## 이 공지사항을 숙지하지 않아 발생하는 모든 불이익은 참가자에게 있음을 알립니다. ##
