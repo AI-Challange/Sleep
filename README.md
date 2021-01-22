@@ -27,11 +27,15 @@ Metadata for signal
 - Label Sample : 
 
 trainset-for_user.csv
+
 Columns : ['환자 코드', '이미지 번호', '레이블']
+
 <img width=500  src="Image/Sample_train_label.PNG"/> 
 
 testset-for_user.csv
+
 Columns : ['환자 코드', '이미지 번호']
+
 <img width=500 src="Image/Sample_test_label.PNG"/> 
 
 
