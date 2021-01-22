@@ -75,7 +75,9 @@ Class : 5개 클래스, ['Wake', 'N1', 'N2', 'N3', 'REM']
  ```
  
 Result sample
+
 Columns : ['레이블']
+
 <img src="Image/Sample_result.PNG"/>
 
 ## 평가 방법
