@@ -39,6 +39,7 @@ Columns : ['환자 코드', '이미지 번호', '레이블']
 testset-for_user.csv
 
 Columns : ['환자 코드', '이미지 번호']
+Class : 5개 클래스, ['Wake', 'N1', 'N2', 'N3', 'REM']
 
 <img width=500 src="Image/Sample_test_label.PNG"/> 
 
@@ -47,8 +48,9 @@ Columns : ['환자 코드', '이미지 번호']
 ## Task
 
 ```
-* Data : 수면다원검사 결과 이미지 데이터
+- Data : 수면다원검사 결과 이미지 데이터
 - Task : 수면 단계 분류(Multi-Label Classification)
+- Evalutation Metric : F-1 Macro
 
 ```
 
@@ -58,7 +60,7 @@ Columns : ['환자 코드', '이미지 번호']
 2. 참가자는 학습된 모델을 기반으로 Test Dataset에 대한 결과를 .csv file로 저장합니다.
   - Result Sample 참고
   - 결과의 정렬은 제공되는 testset-for_user.csv의 순서와 동일해야합니다.
- 3. 참가자는 생성된 Result.csv file을 MAIC 플랫폼에 Submint합니다.
+ 3. 참가자는 생성된 Result.csv file을 MAIC 플랫폼에 Submit합니다.
 ```
 
 Result sample
