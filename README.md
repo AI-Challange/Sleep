@@ -11,7 +11,7 @@
 수면기사 또는 수면전문의는 측정된 여러 신호들을 종합적으로 분석해 수면단계 분류, 이상 호흡 검출, 움직임 및 각성 검출 등을 판독합니다
 이는 수면무호흡증, 기면병, 렘수면 장애 등 수면과 관련된 여러 질환을 진단하는 기반이 됩니다. 
 
-- 문제 정의 : 수면다원검사 이미지 데이터를 기반으로 각 이미지의 수면단계(Wake, N1, N2, N3, REM)를 예측
+- 문제 정의 : 수면다원검사 이미지 데이터를 기반으로 각 이미지의 수면단계(Wake, N1, N2, N3, REM)
 ```
 
 ## Data
@@ -41,17 +41,11 @@ Metadata for signal
  
  - Label Sample : 
  
-trainset-for_user.csv
-
-Columns : ['환자 코드', '이미지 번호', '레이블']
+trainset-for_user.csv, Columns : ['환자 코드', '이미지 번호', '레이블']
 
 <img width=500  src="Image/Sample_train_label.PNG"/> 
 
-testset-for_user.csv
-
-Columns : ['환자 코드', '이미지 번호']
-
-Class : 5개 클래스, ['Wake', 'N1', 'N2', 'N3', 'REM']
+testset-for_user.csv, Columns : ['환자 코드', '이미지 번호'], Class : 5개 클래스, ['Wake', 'N1', 'N2', 'N3', 'REM']
 
 
 <img width=500 src="Image/Sample_test_label.PNG"/> 
