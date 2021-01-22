@@ -17,7 +17,7 @@
 ## Data
 ```
 - Data : 수면다원검사 결과 이미지 데이터
-- 이미지에는 아래 그림의 순서대로 신호가 포함되어 있음 
+- 이미지에는 아래의 순서대로(상단부터 하단으로) 신호가 포함되어 있음 
  - X Axis, Y Axis, Z Axis, C3-M2, C4-M1, O1-M2, O2-M1, E1-M2, E2-M1, Chin EMG, ECG, Flow, Thermistor, Thorax, Abdomen, Snore, Audio Volume, Left Leg EMG, Right Leg EMG, SpO2(85%~100%), SpO2(40~100%)
 - 30초 단위 데이터가 1장의 이미지로 변환 됨
 - 각 검사결과는 평균 731.4장의 이미지를 보유하고 있음 (약 6시간)
