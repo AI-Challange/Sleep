@@ -9,6 +9,7 @@
 수면다원검사는 대상자가 수면을 취하며 뇌파, 심전도, 호흡 등의 생체 신호를 측정하는 검사입니다.
 수면기사 또는 수면전문의는 측정된 여러 신호들을 종합적으로 분석해 수면단계 분류, 이상 호흡 검출, 움직임 및 각성 검출 등을 판독합니다
 이는 수면무호흡증, 기면병, 렘수면 장애 등 수면과 관련된 여러 질환을 진단하는 기반이 됩니다. 
+
 - 문제 정의 : 수면다원검사 이미지 데이터를 기반으로 각 이미지의 수면단계(Wake, N1, N2, N3, REM)를 예측
 ```
 
@@ -70,7 +71,7 @@ Class : 5개 클래스, ['Wake', 'N1', 'N2', 'N3', 'REM']
  - submit 된 result.csv 중 최고점을 받은 .csv file을 'final_result.csv' 이름으로 폴더에 copy
  - 모델의 inference를 위해 필요한 모든 소스코드(main.py, model.py, loader.py 등) 및 저장된 모델(.pth 등)을 폴더에 copy
  - 최고점을 받은 모델을 로드하고, '/Inference/infer_reulst.csv' 로 모델의 추론 결과를 저장하도록 소스코드 정리
- - 모델 검증시 관리자는 /Inference 폴더에서 'python infer_for_sudo.py'로 '/Inference/infer_reulst.csv'로 결과 생성
+ - 모델 검증시 관리자는 개별 Container에 접속, /Inference 폴더에서 'python infer_for_sudo.py'로 '/Inference/infer_reulst.csv'로 결과 생성
    (참가자는 반드시 재현성을 보장해야함, 재현 불가시 평가에서 탈락 할 수 있음)
  ```
  
