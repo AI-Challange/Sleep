@@ -50,10 +50,16 @@ testset-for_user.csv
 
 ## 결과 제출 방법
 ```
-
+1. 참가자는 Train/Validation Dataset을 기반으로 모델의 학습/검증을 수행합니다.
+2. 참가자는 학습된 모델을 기반으로 Test Dataset에 대한 결과를 .csv file로 저장합니다.
+  - Result Sample 참고
+  - 결과의 정렬은 testset-for_user.csv의 순서와 동일해야합니다.
+  -
+ 3. 참가자는 생성된 Result.csv file을 MAIC 플랫폼에 Submint합니다.
 ```
 
-result sample
+Result sample
+
 <img src="Image/Sample_result.PNG"/>
 
 ## 공지 사항
