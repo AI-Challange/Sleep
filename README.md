@@ -35,10 +35,6 @@ Sample Image data (제공되는 데이터에는 워터마크 없음)
 
 <img width=400  src="Image/Sample_data (3).PNG"/> <img width=400  src="Image/Sample_data (4).PNG"/> 
 
-
-<자료 받아서 추가>
-
- 이미지
  
  - Label Sample : 
  
