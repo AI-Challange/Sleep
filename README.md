@@ -61,9 +61,11 @@ F-1 Macor 상세 설명
 
 <img width=600 src="Image/Table.JPG"/> 
 
-<img src="Image/Precision.JPG"/> <img src="Image/Recall.JPG"/> 
+<img src="Image/Precision.JPG"/>        <img src="Image/Recall.JPG"/> 
 
-<img src="Image/MAP.JPG"/> <img src="Image/MAR.JPG"/> 
+<img src="Image/MAP.JPG"/> 
+
+<img src="Image/MAR.JPG"/> 
 
 <img src="Image/F1-Macro.JPG"/> 
 
