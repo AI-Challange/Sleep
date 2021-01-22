@@ -31,8 +31,9 @@
 
 Sample Image data (제공되는 데이터에는 워터마크 없음)
 
-<img width=300  src="Image/Sample_data (1).PNG"/> <img width=300  src="Image/Sample_data (2).PNG"/> 
-<img width=300  src="Image/Sample_data (3).PNG"/> <img width=300  src="Image/Sample_data (4).PNG"/> 
+<img width=400  src="Image/Sample_data (1).PNG"/> <img width=400  src="Image/Sample_data (2).PNG"/> 
+
+<img width=400  src="Image/Sample_data (3).PNG"/> <img width=400  src="Image/Sample_data (4).PNG"/> 
 
 
 <자료 받아서 추가>
