@@ -1,7 +1,7 @@
 # Sleep 2021 AI Challenge
 
 <수정>
-<img width=1000 src="/Image/포스터.png"/> 
+<img width=1000 src="/Image/포스터.PNG"/> 
 
 ## Description
 ```
