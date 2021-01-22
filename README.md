@@ -1,5 +1,7 @@
 # 2021 Sleep AI Challenge
 <img width=600 src="/Image/포스터.PNG"/> 
+
+
 ## Overview
 ```
 본 Repository는 2021 Sleep AI Challenge를 위한 페이지입니다.
@@ -9,6 +11,7 @@
 이는 수면무호흡증, 기면병, 렘수면 장애 등 수면과 관련된 여러 질환을 진단하는 기반이 됩니다. 
 - 문제 정의 : 수면다원검사 이미지 데이터를 기반으로 각 이미지의 수면단계(Wake, N1, N2, N3, REM)를 예측
 ```
+
 ## Data
 ```
 - Data : 수면다원검사 결과 이미지 데이터 : 각 환자의 수면다원검사 결과를 이미지로 변환한 데이터 
@@ -20,24 +23,40 @@
 - Train/Validation Dataset : 800건(명), Label 공개  // Test Dataset : 200건(명), Label 비공개
 - 
 ```
+
 - Image Sample : <자료 받아서 수정>
+
  이미지
+ 
 Metadata for signal
+
  이미지
+ 
  - Label Sample : 
+ 
 trainset-for_user.csv
+
 Columns : ['환자 코드', '이미지 번호', '레이블']
+
 <img width=500  src="Image/Sample_train_label.PNG"/> 
+
 testset-for_user.csv
+
 Columns : ['환자 코드', '이미지 번호']
 Class : 5개 클래스, ['Wake', 'N1', 'N2', 'N3', 'REM']
+
+
 <img width=500 src="Image/Sample_test_label.PNG"/> 
+
+
 ## Task
 ```
 - Data : 수면다원검사 결과 이미지 데이터
 - Task : 수면 단계 분류(Multi-Label Classification)
 - Evalutation Metric : F-1 Macro
 ```
+
+
 ## 결과 제출 방법
 ```
 1. 참가자는 Train/Validation Dataset을 기반으로 모델의 학습/검증을 수행합니다.
@@ -54,9 +73,11 @@ Class : 5개 클래스, ['Wake', 'N1', 'N2', 'N3', 'REM']
  - 모델 검증시 관리자는 /Inference 폴더에서 'python infer_for_sudo.py'로 '/Inference/infer_reulst.csv'로 결과 생성
    (참가자는 반드시 재현성을 보장해야함, 재현 불가시 평가에서 탈락 할 수 있음)
  ```
+ 
 Result sample
 Columns : ['레이블']
 <img src="Image/Sample_result.PNG"/>
+
 ## 평가 방법
 ```
 1. 정량 평가 : 정량적인 평가를 위해 F-1 Macro Metric을 기반으로 모델의 정확도를 평가합니다.
