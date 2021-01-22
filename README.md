@@ -1,7 +1,6 @@
 # Sleep 2021 AI Challenge
 
-<수정>
-<img width=1000 src="/Image/포스터.PNG"/> 
+<img width=700 src="/Image/포스터.PNG"/> 
 
 ## Description
 ```
@@ -26,11 +25,11 @@
 
 trainset-for_user.csv
 
-<img src="Image/Sample_train_label.PNG"/> 
+<img width=500 height = 400 src="Image/Sample_train_label.PNG"/> 
 
 testset-for_user.csv
 
-<img src="Image/Sample_test_label.PNG"/> 
+<img width=500 height = 400 src="Image/Sample_test_label.PNG"/> 
 
 ## Task
 
