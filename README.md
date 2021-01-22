@@ -57,7 +57,7 @@ testset-for_user.csv, Columns : ['검사결과 코드', '이미지 번호'], Cla
 - Task : 수면 단계 분류(Multi-Label Classification)
 - Evalutation Metric : F-1 Macro
 ```
-F-1 Macor 상세 설명
+F-1 Macro 상세 설명
 
 <img width=600 src="Image/Table.JPG"/> 
 
