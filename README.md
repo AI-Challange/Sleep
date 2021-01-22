@@ -17,7 +17,8 @@
 ## Data
 ```
 - Data : 수면다원검사 결과 이미지 데이터 : 각 검사결과의 수면다원검사 결과를 이미지로 변환한 데이터 
-- 이미지에는 아래 그림의 순서대로 신호가 포함되어 있음 : x축 가속도, y축 가속도 .............. 등 <수정>
+- 이미지에는 아래 그림의 순서대로 신호가 포함되어 있음 
+ - X Axis, Y Axis, Z Axis, C3-M2, C4-M1, O1-M2, O2-M1, E1-M2, E2-M1, Chin EMG, ECG, Flow, Thermistor, Thorax, Abdomen, Snore, Audio Volume, Left Leg EMG, Right Leg EMG, SpO2(85%~100%), SpO2(40~100%)
 - 30초 단위 데이터가 1장의 이미지로 변환 됨
 - 검사결과는 평균 731.4장의 이미지를 보유하고 있음 (약 6시간)
 - 데이터의 시간 순서는 이미지명으로 정렬되어 있음 : 예시 > 검사결과 코드_0001.png 검사결과 코드_0002.png, ...
@@ -28,12 +29,9 @@
 
 - Image Sample : 
 
-Sample Image data
-<자료 받아서 추가>
+Sample Image data (제공되는 데이터에는 워터마크 없음)
+<img width=300  src="Image/Sample_data (1).PNG"/> <img width=300  src="Image/Sample_data (2).PNG"/> <img width=300  src="Image/Sample_data (3).PNG"/> <img width=300  src="Image/Sample_data (4).PNG"/> 
 
- 이미지
- 
-Metadata for signal
 
 <자료 받아서 추가>
 
