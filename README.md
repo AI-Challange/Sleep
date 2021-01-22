@@ -16,11 +16,11 @@
 
 ## Data
 ```
-- Data : 수면다원검사 결과 이미지 데이터 : 각 검사결과의 수면다원검사 결과를 이미지로 변환한 데이터 
+- Data : 수면다원검사 결과 이미지 데이터
 - 이미지에는 아래 그림의 순서대로 신호가 포함되어 있음 
  - X Axis, Y Axis, Z Axis, C3-M2, C4-M1, O1-M2, O2-M1, E1-M2, E2-M1, Chin EMG, ECG, Flow, Thermistor, Thorax, Abdomen, Snore, Audio Volume, Left Leg EMG, Right Leg EMG, SpO2(85%~100%), SpO2(40~100%)
 - 30초 단위 데이터가 1장의 이미지로 변환 됨
-- 검사결과는 평균 731.4장의 이미지를 보유하고 있음 (약 6시간)
+- 각 검사결과는 평균 731.4장의 이미지를 보유하고 있음 (약 6시간)
 - 데이터의 시간 순서는 이미지명으로 정렬되어 있음 : 예시 > 검사결과 코드_0001.png 검사결과 코드_0002.png, ...
 - 검사 초기 일부는 수면이 시작되지 않아 레이블이 없음 : 예시 > 검사결과-1은 0004.png 부터 label이 존재
 - Train/Validation Dataset : 800건(명), Label 공개  // Test Dataset : 200건(명), Label 비공개
