@@ -25,11 +25,11 @@
 
 trainset-for_user.csv
 
-<img width=500 height = 400 src="Image/Sample_train_label.PNG"/> 
+<img width=500  src="Image/Sample_train_label.PNG"/> 
 
 testset-for_user.csv
 
-<img width=500 height = 400 src="Image/Sample_test_label.PNG"/> 
+<img width=500 src="Image/Sample_test_label.PNG"/> 
 
 ## Task
 
