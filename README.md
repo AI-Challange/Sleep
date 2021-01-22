@@ -58,12 +58,14 @@ testset-for_user.csv, Columns : ['검사결과 코드', '이미지 번호'], Cla
 - Evalutation Metric : F-1 Macro
 ```
 F-1 Macor 상세 설명
-$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
-$$Precision_k = TP_k over TP_k FP_k $$
-$$ $$
-$$ $$
-$$ $$
-$$ $$
+
+<img width=600 src="Image/Table.JPG"/> 
+
+<img src="Image/Precision.JPG"/> <img src="Image/Recall.JPG"/> 
+
+<img src="Image/MAP.JPG"/> <img src="Image/MAR.JPG"/> 
+
+<img src="Image/F1-Macro.JPG"/> 
 
 ## 결과 제출 방법
 ```
