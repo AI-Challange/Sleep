@@ -94,8 +94,6 @@ F-1 Macro 상세 설명
 
 <결과 파일 예시>
 
-Columns : ['레이블']
-
 <img src="Image/Result_sample.JPG"/>
 
 <결과 제출 방법>
