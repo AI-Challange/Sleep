@@ -86,7 +86,7 @@ F-1 Macro 상세 설명
  - MAIC 플랫폼에 제출한 결과 중 최고점을 받은 .csv file을 'final_result.csv' 이름으로 INFERENCE 폴더에 Copy
  - 최고점을 받은 모델의 검증을 위해 필요한 모든 소스코드(main.py, model.py, loader.py, train.py 등) 및 학습된 모델의 가중치 파일을 'final_weight'(.pth 등)로 INFERENCE 폴더에 Copy
  - inference-train.py 코드 작성
-  └ Train/Validation Dataset을 기반으로 학습하여 최고점을 받은 모델과 비슷한 성능을 보이는 모델을 'infer.pth' 등으로 저장 (학습된 모델(weight)의 확장자명은 고정 아님)
+  └ Train/Validation Dataset을 기반으로 학습하여 최고점을 받은 모델과 비슷한 성능을 보이는 모델을 'infer.pth' 등으로 저장하도록 해야함 (학습된 모델(weight)의 확장자명은 고정 아님)
  - inference-test1.py 코드 작성
   └ 'infer.pth'을 로드하고, INFERENCE 폴더에 'inference_result1.csv'로 testing 결과를 저장하도록 해야함
  - inference-test2.py 코드 작성
