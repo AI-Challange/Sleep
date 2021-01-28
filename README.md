@@ -71,26 +71,36 @@ F-1 Macro 상세 설명
 
 ## 결과 제출 방법
 ```
+
 1. 참가자는 Train/Validation Dataset을 기반으로 모델의 학습/검증을 수행합니다.
-2. 참가자는 학습된 모델을 기반으로 Test Dataset에 대한 결과를 .csv file로 저장합니다.
-  - Result Sample 참고
-  - 결과의 정렬은 제공되는 testset-for_user.csv의 순서와 동일해야합니다.
-3. 참가자는 생성된 Result.csv file을 MAIC 플랫폼에 Submit합니다.
+2. 참가자는 학습된 모델을 기반으로 Test Dataset에 대한 결과를 'files.csv' 로 저장합니다.
+  - 결과의 정렬은 제공되는 testset-for_user.csv의 순서와 동일해야합니다. <결과 파일 예시> 참고.
+3. 참가자는 생성된 'files.csv' file을 MAIC 플랫폼에 Submit합니다. <결과 제출 방법> 참고
 4. 리더보드에서 제출한 모델의 성능/순위를 확인합니다.
-5. 대회 마감 전 사용자는 모델 검증을 위해 다음 사항을 반드시 이행해야 합니다.
- - /Inference 폴더 생성
- - submit 된 result.csv 중 최고점을 받은 .csv file을 'final_result.csv' 이름으로 폴더에 copy
- - 모델의 inference를 위해 필요한 모든 소스코드(main.py, model.py, loader.py 등) 및 저장된 모델(.pth 등)을 폴더에 copy
- - 최고점을 받은 모델을 로드하고, '/Inference/infer_reulst.csv' 로 모델의 추론 결과를 저장하도록 소스코드 정리
- - 모델 검증시 관리자는 개별 Container에 접속, /Inference 폴더에서 'python infer_for_sudo.py'로 '/Inference/infer_reulst.csv'로 결과 생성
-   (참가자는 반드시 재현성을 보장해야함, 재현 불가시 평가에서 탈락 할 수 있음)
- ```
+5. 참가자는 대회 마감 전 모델 검증을 위해 다음 사항을 반드시 이행해야 합니다.
+ - 제시된 <디렉토리 구조> 를 기반으로  참고
+  └ data : Docker Container에 Mount 되는 기본 폴더 
+  └ DATA : 데이터셋이 위치한 폴더 (Read-only)
+  └ USER : 참가자가 Code 등을 저장, 원하는 형태로 사용 가능한 폴더
+  └ INFERENCE : 최종 결과 제출을 위한 모든 file을 저장하기 위한 폴더
+ - MAIC 플랫폼에 제출한 결과 중 최고점을 받은 .csv file을 'final_result.csv' 이름으로 INFERENCE 폴더에 Copy
+ - 최고점을 받은 모델의 검증을 위해 필요한 모든 소스코드(main.py, model.py, loader.py, train.py 등) 및 학습된 모델의 가중치 파일(.pth 등)을 INFERENCE 폴더에 Copy
+ - inference.py 코드 작성
+  └ 최고점을 받은 모델을 로드하고, INFERENCE 폴더에 'infer_result.csv'로 testing 결과를 저장하도록 해야함
  
-Result sample
+  *** 참가자는 반드시 재현성을 보장해야함, 재현 불가시 평가에서 탈락 할 수 있음 ***
+ ```
+<디렉토리 구조>
+
+<결과 파일 예시>
 
 Columns : ['레이블']
 
-<img src="Image/Sample_result.PNG"/>
+<img src="Image/Result_sample.JPG"/>
+
+<결과 제출 방법>
+
+<img src="Image/Submit.png"/> 
 
 ## 평가 방법
 ```
