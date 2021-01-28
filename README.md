@@ -101,7 +101,7 @@ F-1 Macro 상세 설명
 
 <결과 제출 방법>
 
-<img src="Image/Submit.JPG"/> 
+<img width=400 src="Image/Submit.JPG"/> 
 
 <디렉토리 구조>
 
