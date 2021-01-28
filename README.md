@@ -85,12 +85,18 @@ F-1 Macro 상세 설명
   └ INFERENCE : 최종 결과 제출을 위한 모든 file을 저장하기 위한 폴더
  - MAIC 플랫폼에 제출한 결과 중 최고점을 받은 .csv file을 'final_result.csv' 이름으로 INFERENCE 폴더에 Copy
  - 최고점을 받은 모델의 검증을 위해 필요한 모든 소스코드(main.py, model.py, loader.py, train.py 등) 및 학습된 모델의 가중치 파일(.pth 등)을 INFERENCE 폴더에 Copy
- - inference.py 코드 작성
-  └ 최고점을 받은 모델을 로드하고, INFERENCE 폴더에 'infer_result.csv'로 testing 결과를 저장하도록 해야함
+ - inference-train.py 코드 작성
+  └ Train/Validation Dataset을 기반으로 학습하여 최고점을 받은 모델과 비슷한 성능을 보이는 모델을 'infer.pth' 등으로 저장 (학습된 모델(weight)의 확장자명은 고정 아님)
+ - inference-test1.py 코드 작성
+  └ 'infer.pth'을 로드하고, INFERENCE 폴더에 'inference_result1.csv'로 testing 결과를 저장하도록 해야함
+ - inference-test2.py 코드 작성
+  └ 최고점을 받은 모델을 로드하고, INFERENCE 폴더에 'inference_result2.csv'로 testing 결과를 저장하도록 해야함
  
   *** 참가자는 반드시 재현성을 보장해야함, 재현 불가시 평가에서 탈락 할 수 있음 ***
  ```
 <디렉토리 구조>
+
+<img src="Image/Directory.JPG"/>
 
 <결과 파일 예시>
 
@@ -98,7 +104,7 @@ F-1 Macro 상세 설명
 
 <결과 제출 방법>
 
-<img src="Image/Submit.png"/> 
+<img src="Image/Submit.JPG"/> 
 
 ## 평가 방법
 ```
