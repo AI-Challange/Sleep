@@ -58,11 +58,12 @@ testset-for_user.csv, Columns : ['검사결과 코드', '이미지 번호'], Cla
 - Evalutation Metric : F-1 Macro
 ```
 Macro-F1
-<img src="Image/Precision.JPG"/>  <img src="Image/Recall.JPG"/> 
 
-<img src="Image/F1.PNG"/> 
+<img width=200 src="Image/Precision.JPG"/>  <img width=200 src="Image/Recall.JPG"/> 
 
-<img src="Image/Macro-F1.PNG"/> 
+<img width=200 src="Image/F1.PNG"/> 
+
+<img width=200 src="Image/Macro-F1.PNG"/> 
 
 ## 결과 제출 방법
 ```
