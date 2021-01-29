@@ -58,6 +58,9 @@ testset-for_user.csv, Columns : ['검사결과 코드', '이미지 번호'], Cla
 - Evalutation Metric : F-1 Macro
 ```
 Macro-F1
+<img src="Image/Precision.JPG"/>  <img src="Image/Recall.JPG"/> 
+
+<img src="Image/F1.PNG"/> 
 
 <img src="Image/Macro-F1.PNG"/> 
 
