@@ -105,7 +105,7 @@ F-1 Macro 상세 설명
 
 <디렉토리 구조>
 
-<img src="Image/directory.PNG"/>
+<img src="Image/Directory.PNG"/>
 
 ## 평가 방법
 ```
