@@ -61,7 +61,7 @@ Macro-F1
 
 <img width=200 src="Image/Precision.JPG"/>  <img width=200 src="Image/Recall.JPG"/> 
 
-<img width=300 src="Image/F1.PNG"/> 
+<img width=300 src="Image/F1.JPG"/> 
 
 <img width=300 src="Image/Macro-F1.PNG"/> 
 
