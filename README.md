@@ -79,7 +79,7 @@ F-1 Macro 상세 설명
 4. 리더보드에서 제출한 모델의 성능/순위를 확인합니다.
 5. 참가자는 대회 마감 전 모델 검증을 위해 다음 사항을 반드시 이행해야 합니다.
  - 제시된 <디렉토리 구조> 를 기반으로  참고
-  └ /root : Docker Container에 Mount 되는 기본 폴더 (/)
+  └ / : Docker Container에 Mount 되는 기본 폴더
   └ /DATA : 데이터셋이 위치한 폴더 (Read-only)
   └ /USER : 참가자가 Code 등을 저장, 원하는 형태로 사용 가능한 폴더
   └ /USER/INFERENCE : 최종 결과 제출을 위한 모든 file을 저장하기 위한 폴더
