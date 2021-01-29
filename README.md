@@ -18,7 +18,11 @@
 ```
 - Data : 수면다원검사 결과 이미지 데이터
 - 이미지에는 아래의 순서대로(상단부터 하단으로) 신호가 포함되어 있음 
- - X Axis, Y Axis, Z Axis, C3-M2, C4-M1, O1-M2, O2-M1, E1-M2, E2-M1, Chin EMG, ECG, Flow, Thermistor, Thorax, Abdomen, Snore, Audio Volume, Left Leg EMG, Right Leg EMG, SpO2(85%~100%), SpO2(40~100%)
+ └ X Axis, Y Axis, Z Axis, C3-M2, C4-M1, O1-M2, O2-M1, E1-M2, E2-M1, Chin EMG, ECG, Flow, Thermistor, Thorax, Abdomen, Snore, Audio Volume, Left Leg EMG, Right Leg EMG, SpO2(85%~100%), SpO2(40~100%)
+ └ 각 신호가 차지하는 높이(Pixel) 아래 표 참고
+ └ 원본 이미지는 1080이나 270으로 Resize 되어 제공됨, 이에 따라 높이(Pixel)는 다소 오차가 있을 수 있음
+ └ 각 그룹 내의 Signal은 서로의 영역을 침범 할 수 있음, 다른 그룹의 Signal은 서로의 영역을 침범 할 수 없음
+ ** 참고 : Sample_crop.zip file - 제시된 pixel을 기반으로 각 Signal, Group 별로 Crop
 - 1건의 검사결과는 약 6시간에 대한 검사 결과이며, 30초 단위의 데이터가 1장의 이미지로 변환 됨.
 - 각 검사 결과는 평균 731.4장의 이미지를 보유하고 있음 (약 6시간)
 - 데이터의 시간 순서는 이미지명으로 정렬되어 있음 : 예시 > 검사결과 코드_0001.png 검사결과 코드_0002.png, ...
@@ -38,6 +42,7 @@ Sample Image data (제공되는 데이터에는 워터마크 없음)
 
 <img width=400  src="Image/Sample_data (3).PNG"/> <img width=400  src="Image/Sample_data (4).PNG"/> 
 
+<img width=600 src="Image/Signal_table.PNG"/> 
  
  - Label Sample : 
  
