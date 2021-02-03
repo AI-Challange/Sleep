@@ -118,9 +118,11 @@ Testset csv의 전체 라인은 138,925 입니다.
  
 <img width=400 src="Image/submit.png"/> 
 
-<EMAIL 및 UID> 확인 방법 >
+<EMAIL 및 UID 확인 방법 >
 
-<img width=400 src="Image/ID.PNG"/>
+MAIC 홈페이지의 경진대회 페이지에서 '제출' 버튼 클릭
+
+<img width=400 src="Image/ID.png"/>
 
 <디렉토리 구조>
 
