@@ -102,6 +102,8 @@ Macro-F1
 
 <결과 제출 방법>
 
+중요!!!!! 아래 curl 예시 중 이메일 주소는 MAIC 홈페이지 가입 시 입력한 메일로 입력해야합니다.
+
 <img width=400 src="Image/Submit.JPG"/> 
 
 <디렉토리 구조>
