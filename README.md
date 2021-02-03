@@ -118,6 +118,10 @@ Testset csv의 전체 라인은 138,925 입니다.
  
 <img width=400 src="Image/submit.png"/> 
 
+<EMAIL 및 UID> 확인 방법 >
+
+<img width=400 src="Image/ID.PNG"/>
+
 <디렉토리 구조>
 
 <img width=400 src="Image/directory.PNG"/>
