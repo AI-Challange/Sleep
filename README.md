@@ -103,8 +103,14 @@ Macro-F1
 <결과 제출 방법>
 
 중요!!!!! 아래 curl 예시 중 이메일 주소는 MAIC 홈페이지 가입 시 입력한 메일,UID는 부여받은 값을 입력해야합니다.
-
-
+<예시> 
+1. curl 명령어 입력 : curl --user "test@test.com" -X POST -F "files=@/USER/files.csv" https://maic.or.kr/api/direct-report
+2. UID 입력 : 123456789b-fpd
+3. password 입력 : password1234
+4. 제출 결과 확인 
+ - 제출 성공 시 메세지 확인 : { "message": "{팀이름}팀 {이용자명}님 제출이 완료되었습니다. 남은 일일 제출 횟수는 {남은 제출횟수}회/{총 허용된 일일 제출횟수}회 입니다." }
+ - 팀별 일일 제출 가능 횟수는 500회 (제출 성공 기준)
+ 
 <img width=400 src="Image/submit.png"/> 
 
 <디렉토리 구조>
